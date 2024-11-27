@@ -2,6 +2,10 @@ import React from 'react';
 import './Home1.css'
 import 'boxicons';
 
+
+
+
+
 function Home1() {
   return (
     <section className='home' id='home'>
@@ -43,9 +47,19 @@ function Home1() {
             <i class='bx bx-code-alt'> </i>
             <h3>Web Developer</h3>
           </div>
+
+          <div className='circle'></div>
                 
         </div>
+
+        <div className='overlay'></div>
       </div>
+      
+     
+
+      {/* <div className='home-myimg'>
+        <img src={myphoto} alt='home-myimage'></img>
+      </div> */}
     </section> 
   );
 }

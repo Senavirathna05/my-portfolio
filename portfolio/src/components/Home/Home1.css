@@ -113,7 +113,6 @@ section {
     right: 0;
     width: 1100px;
     height: 1100px;
-    background-color: aqua;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -130,6 +129,18 @@ section {
     color: var(--main-color);
     transform: rotate(calc(360deg/4 * var(--i) ));
     transform-origin: 550px;
+    background: var(--bg-color);
+    padding: 13px 0;
+ }
+
+ .home .profession-box .profession:nth-child(1) i {
+    margin-right: 35px;
+ }
+
+ .home .profession-box .profession:nth-child(2),
+ .home .profession-box .profession:nth-child(4) {
+    padding-bottom: 20px;
+    
  }
 
  .home .profession box-icon {
@@ -142,4 +153,25 @@ section {
     line-height: 1;
     font-weight: 600;
  }
+
+ .home .profession-box .circle{
+    width: 830px;
+    height: 830px;
+    /* background: red; */
+    border: 3px solid var(--main-color);
+    border-radius: 50%;
+ }
+
+ .home .profession-container .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 550px solid var(--main-color);
+    border-right: 550px solid var(--main-color);
+    border-bottom: 550px solid var(--main-color);
+    border-left: 550px solid transparent;
+ }
+
 
