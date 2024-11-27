@@ -20,6 +20,32 @@ function Home1() {
         </div>
           <a href='#' className='btn'>Download CV</a>
       </div>
+
+      <div className='profession-container'>
+        <div className='profession-box'>
+
+          <div className='profession' style={{ "--i": 0 }}>
+            <i class='bx bx-code-alt'> </i>
+            <h3>Web Developer</h3>
+          </div>
+
+          <div className='profession' style={{ "--i": 1 }}>
+            <i class='bx bx-code-alt'> </i>
+            <h3>Web Developer</h3>
+          </div>
+
+          <div className='profession' style={{ "--i": 2 }}>
+            <i class='bx bx-code-alt'> </i>
+            <h3>Web Developer</h3>
+          </div>
+
+          <div className='profession' style={{ "--i": 3 }}>
+            <i class='bx bx-code-alt'> </i>
+            <h3>Web Developer</h3>
+          </div>
+                
+        </div>
+      </div>
     </section> 
   );
 }

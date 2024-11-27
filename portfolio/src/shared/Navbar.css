@@ -26,9 +26,10 @@
     left: 0;
     width: 100%;
     padding: 1.5rem 4%;
-    background-color: rgb(65, 218, 172);
+    background-color: black;
     display: flex;
     align-items: center;
+    z-index: 1000;
 }
 
 .Navbar img{
