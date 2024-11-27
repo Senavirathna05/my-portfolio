@@ -6,47 +6,55 @@
     border: 0;
     text-decoration: none;
     list-style: none;
-    box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: 'poppins', sans-serif;
   }
 
 :root{
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
-    --main-color: #7cf03d;
-    --white-color: #fff;
-    --disabled-color: #fff3;
+    --bg-color: #fdfdfd;
+    --second-bg-color: #333;
+    --main-color: #754ef9;
+    --white-color: #fdfdfd;
+    --disabled-color: rgba(0,0,0, .2);
 
 } 
 
-header{
-    position: fixed;
-    flex-direction: row;
+.Navbar{
+    position: relative;
+    /* position: fixed; */
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
-    background: flex;
-    justify-content: space-between;
+    padding: 1.5rem 4%;
+    background-color: rgb(65, 218, 172);
+    display: flex;
     align-items: center;
-    z-index: 100;
-    background-color: #1f242d;
 }
 
-.logo{
-    font-size: 3rem;
-    color: #fff;
-    font-weight: 700;
+.Navbar img{
+   width: 190px;
+   height: 50px;
+   margin-right: 60rem;
 }
 
-.nav a{
-    font-size: 2rem;
+.top-nav a {
+    font-size: 1.7rem;
     color: var(--white-color);
     font-weight: 500;
-    margin-left: 3.5rem;
-    transition: .5s;
+    margin-right: 3.5rem;
+}
+.top-nav a .active::before {
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 2px;
+    background: var(--white-color);
 }
 
-nav a:hover{
-    color: var(--main-color);
+#darkMode-icon{
+    font-size: 2.4rem;
+    color: var(--white-color );
+    cursor: pointer;
 }
