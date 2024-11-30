@@ -1,4 +1,5 @@
 import React from 'react';
+import myPhoto from '../../Image/myhomeimage-removebg.png';
 import './Home1.css'
 import 'boxicons';
 
@@ -53,13 +54,12 @@ function Home1() {
         </div>
 
         <div className='overlay'></div>
-      </div>
-      
-     
 
-      {/* <div className='home-myimg'>
-        <img src={myphoto} alt='home-myimage'></img>
-      </div> */}
+        <div className='home-myimg'>
+          <img src={myPhoto} alt='home-myimage'></img>
+        </div>
+
+      </div>     
     </section> 
   );
 }

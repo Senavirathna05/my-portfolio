@@ -7,7 +7,8 @@ import mylogo from '../Image/mylogo.png';
 function Navbar() {
   return (
     <div className='Navbar'> 
-      <img src={mylogo} alt='Website Logo'></img>
+      {/* <img src={mylogo} alt='Website Logo'></img> */}
+      <p>Sahan.</p>
 
       <ul className="top-nav">
         <a href="#home" className="active">Home</a>

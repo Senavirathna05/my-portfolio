@@ -174,4 +174,11 @@ section {
     border-left: 550px solid transparent;
  }
 
-
+.home-myimg{
+    position: absolute;
+    top: 17.9rem;
+    bottom: 0;
+    right: 0;
+    width: 75%;
+    pointer-events: none;
+}
