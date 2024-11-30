@@ -3,6 +3,7 @@ import mylog02 from '../../Image/mylog02.png';
 import './About.css'
 
 function About() {
+ 
   return (
     <section className='about' id='about'>
       <div className='about-img'>
