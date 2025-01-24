@@ -1,4 +1,5 @@
 import React from 'react'
+import './Services.css';
 
 function Services() {
   return (
@@ -13,10 +14,9 @@ function Services() {
           testing tools and methods to find and fix the mistakes in the code.</p>
           <a href='#' className='btn'>Read More</a>
         </div>
-      </div>
 
-      <div className='services-box'>
-          <box-icon name='code-alt'></box-icon>
+        <div className='services-box'>
+          <box-icon name='palette'></box-icon>
           <h3>Graphic Design</h3>
           <p> If the program doesn't work the way it should, the programmer should use
           testing tools and methods to find and fix the mistakes in the code.</p>
@@ -24,12 +24,13 @@ function Services() {
         </div>
 
         <div className='services-box'>
-          <box-icon name='code-alt'></box-icon>
+          <box-icon name='paint' type='solid' ></box-icon>
           <h3>UI/UX Design</h3>
           <p> If the program doesn't work the way it should, the programmer should use
           testing tools and methods to find and fix the mistakes in the code.</p>
           <a href='#' className='btn'>Read More</a>
         </div>
+      </div>
        
     </section>
   )
