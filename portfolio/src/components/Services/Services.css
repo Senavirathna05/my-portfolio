@@ -1,10 +1,54 @@
-.btn {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+  }
+
+:root{
+    --bg-color: #fdfdfd;
+    --second-bg-color: #333;
+    --main-color: #754ef9;
+    --white-color: #fdfdfd;
+    --shadow-color: rgba(0,0,0, .2);
+
+} 
+ .services{
+    min-height: auto;
+    padding-bottom: 7rem;
+} 
+
+.services h2{
+    margin-bottom: 4rem;
+
+}
+
+.services-heading{
+    font-size: 4.5rem;
+    /* text-align: center; */
+    padding-left: 43rem;
+}
+
+.services-heading span{
+    color: var(--main-color);
+}
+
+
+
+.services-btn {
     display:inline-block;
-    padding: 1.2rem 2.8rem;
+    padding: 1rem 2rem;
     background: var(--main-color);
     border-radius: .6rem;
     box-shadow: 0.2rem .5rem var(--shadow-color);
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: var(--white-color);
     letter-spacing: .1rem; 
     font-size: 600;
@@ -12,8 +56,53 @@
     transition: .5s ease;
 
 }
- .btn:hover{
+ .services-btn:hover{
     background: transparent;
     color: var(--main-color);
     border-color: var(--main-color);
  }
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-box{
+    flex:1 1 30rem;
+    background: var(--bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+    text-align: center;
+    border-top: .6rem solid var(--main-color);
+    border-bottom: .6rem solid var(--main-color);
+    transition: .5s ease;
+}
+
+.services-box:hover{
+    box-shadow: 0.1rem 2rem var(--shadow-color);
+    transform: scale(1.02);
+}
+
+.services-box i{
+    font-size: 7rem;
+    color: #754ef9;
+}
+
+.services-box h3{
+    font-size: 2.6rem;
+    transition: .5s ease;
+}
+
+.services-box:hover h3{
+    color: var(--main-color);
+    
+}
+
+.services-box p{
+    font-size: 1.5rem;
+    margin: 1rem 0 3rem;
+}
