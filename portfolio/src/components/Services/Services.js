@@ -5,7 +5,7 @@ function Services() {
   return (
     <section className='services' id='services'>
      
-      <h2 className='services-heading'>my <span>Services</span></h2>
+      <h2 className='services-heading'>My <span>Services</span></h2>
 
       <div className='services-container'>
         <div className='services-box'>

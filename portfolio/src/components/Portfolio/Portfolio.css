@@ -18,5 +18,19 @@
     --main-color: #754ef9;
     --white-color: #fdfdfd;
     --shadow-color: rgba(0,0,0, .2);
-
 } 
+
+/* .Portfolio{
+  background-color: aqua;
+  margin-top: 7rem;
+} */
+
+.Portfolio-heading{
+  font-size: 4.5rem;
+  /* text-align: center; */
+  padding-left: 43rem;
+}
+
+.Portfolio-heading span{
+  color: var(--main-color);
+}
